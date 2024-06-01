@@ -1,0 +1,54 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+input {
+    width: 40%;
+    height: 25px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+@media only screen and (max-width: 700px ) {
+    input {
+        width: 80%;
+        height: 25px;
+    }
+}
+
+.formulaire {
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.158);
+    padding: 15px 10px 40px 10px;
+    border-radius: 5px;
+}
+
+.client, .address {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 25px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 1rem;
+}
